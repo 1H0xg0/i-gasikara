@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Image_m extends CI_Model {
+class Video_m extends CI_Model {
 
     public function __construct(){
 
@@ -10,25 +10,18 @@ class Image_m extends CI_Model {
     }
 
     public function get($condition = array()){
-
         return $this->db->select('*')
             ->where($condition)
-            ->get('image')
+            ->get('video')
             ->result();
-
     }
 
     public function add($data){
-        $this->db->insert('image', $data);
-        return $this->db->insert_id();
+        return $this->db->insert('video', $data);
     }
 
     public function delete($data){
-        return $this->db->delete('image', $data);
-    }
-
-    public function delete_file($data){
-        return $this->db->delete('files', $data);
+        return $this->db->delete('video', $data);
     }
 
 
