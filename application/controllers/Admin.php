@@ -43,7 +43,7 @@ class Admin extends CI_Controller {
 
         // JS pour chaque menu
         $this->template->javascript->add(base_url().'assets/plugins/url.js');
-        $this->template->javascript->add(base_url().'assets/admin/js/load.js');
+        $this->template->javascript->add(base_url().'assets/admin/js/load.js'); 
         
         $this->template->javascript->add(base_url().'assets/admin/js/ajax_candidats.js');
         $this->template->javascript->add(base_url().'assets/admin/js/ajax_users.js');
