@@ -357,8 +357,13 @@
 
                         <li> <a  class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-file-multiple"></i><span class="hide-menu">Documents</span></a>
                             <ul aria-expanded="false" class="collapse">
+
                                 <li><a id="admin-docs-uploads">Ajout</a></li>
                                 <li><a id="admin-docs-bibliotheque" >Bibliothèques</a></li>
+
+                                <li><a id="admin-docs-uploads" href="#">Ajout</a></li>
+                                <li><a id="admin-docs-bibliotheque" href="#">Bibliothèques</a></li>
+
                             </ul>
                         </li>
                         
@@ -392,6 +397,10 @@
 
 
 <!-- Mirrored from wrappixel.com/demos/admin-templates/admin-pro/minimal/app-email.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 May 2018 07:28:39 GMT -->
+<<<<<<< HEAD
 </html>
 
 <form id="rendered-form"><div class="rendered-form"><div class="fb-button form-group field-button-1532801305137"><button type="button" class="btn-default btn" name="button-1532801305137" style="default" id="button-1532801305137">Bouton</button></div><div class="fb-date form-group field-date-1532801304103"><label for="date-1532801304103" class="fb-date-label">Champ Date</label><input type="date" class="form-control" name="date-1532801304103" id="date-1532801304103"></div><div class=""><h1 id="control-8225614">Header</h1></div><div class="fb-number form-group field-number-1532801293997"><label for="number-1532801293997" class="fb-number-label">number</label><input type="number" class="form-control" name="number-1532801293997" value="1" id="number-1532801293997"></div><div class="fb-checkbox-group form-group field-checkbox-group-1532801306942"><label for="checkbox-group-1532801306942" class="fb-checkbox-group-label">Groupe de cases à cocher</label><div class="checkbox-group"><div class="checkbox"><input name="checkbox-group-1532801306942[]" id="checkbox-group-1532801306942-0" value="option-1" type="checkbox" checked="checked"><label for="checkbox-group-1532801306942-0">Option 1</label></div></div></div></div></form>
+=======
+</html>
+

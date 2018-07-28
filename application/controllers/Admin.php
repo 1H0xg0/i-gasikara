@@ -14,6 +14,7 @@ class Admin extends CI_Controller {
         $this->load->model('video_m');
         $this->load->model('file_m');
 
+
         // load template
         $this->template->set_template('admin/template');
 
@@ -26,12 +27,16 @@ class Admin extends CI_Controller {
         $this->template->stylesheet->add(base_url().'assets/admin/css/style.css');
         $this->template->stylesheet->add(base_url().'assets/admin/css/colors/default.css');
         $this->template->stylesheet->add(base_url().'assets/admin/css/pages/inbox.css');
+
         $this->template->stylesheet->add(base_url().'assets/admin/css/pages/file-upload.css');
         $this->template->stylesheet->add(base_url().'assets/admin/css/user-card.css');
         $this->template->stylesheet->add(base_url().'assets/admin/pages/contact-app-page.css');
 
         $this->template->stylesheet->add(base_url().'assets/plugins/dropzone-master/dist/dropzone.css');
         $this->template->stylesheet->add(base_url().'assets/plugins/Magnific-Popup-master/dist/magnific-popup.css');
+
+        $this->template->stylesheet->add(base_url().'assets/admin/css/pages/file-upload.css');        
+
 
 
         // js script
@@ -44,8 +49,9 @@ class Admin extends CI_Controller {
         $this->template->javascript->add(base_url().'assets/admin/js/sidebarmenu.js');
         $this->template->javascript->add(base_url().'assets/admin/js/ajax.js');
         $this->template->javascript->add(base_url().'assets/admin/js/custom.min.js');
+
         $this->template->javascript->add(base_url().'assets/plugins/Magnific-Popup-master/dist/jquery.magnific-popup.min.js');
-        
+
         // Email
         $this->template->javascript->add(base_url().'assets/plugins/sticky-kit-master/dist/sticky-kit.min.js');
         $this->template->javascript->add(base_url().'assets/plugins/sparkline/jquery.sparkline.min.js');
@@ -53,12 +59,17 @@ class Admin extends CI_Controller {
 
         // JS pour chaque menu
         $this->template->javascript->add(base_url().'assets/plugins/url.js');
+
         $this->template->javascript->add(base_url().'assets/admin/js/load.js');
+
+        $this->template->javascript->add(base_url().'assets/admin/js/load.js'); 
+
         
         $this->template->javascript->add(base_url().'assets/admin/js/ajax_candidats.js');
         $this->template->javascript->add(base_url().'assets/admin/js/ajax_users.js');
         $this->template->javascript->add(base_url().'assets/admin/js/ajax_stats.js');
         $this->template->javascript->add(base_url().'assets/admin/js/ajax_docs.js');
+
 
         //dropzone
         $this->template->javascript->add(base_url().'assets/plugins/dropzone-master/dist/dropzone.js');
@@ -68,6 +79,7 @@ class Admin extends CI_Controller {
     public function index(){
         $this->template->content->view('admin/admin', array());
         $this->template->publish();
+
     }
 
     public function page_docs_upload(){
@@ -82,6 +94,7 @@ class Admin extends CI_Controller {
         $data['videos'] = $this->video_m->get();
         $data['files'] = $this->file_m->get();
         $this->template->render("admin/docs/biblio", $data);
+
     }
 
 }
