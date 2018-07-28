@@ -39,19 +39,11 @@ class Admin extends CI_Controller {
         $this->template->javascript->add(base_url().'assets/admin/js/ajax.js');
         $this->template->javascript->add(base_url().'assets/admin/js/custom.min.js');
         
+        // Email
         $this->template->javascript->add(base_url().'assets/plugins/sticky-kit-master/dist/sticky-kit.min.js');
         $this->template->javascript->add(base_url().'assets/plugins/sparkline/jquery.sparkline.min.js');
         $this->template->javascript->add(base_url().'assets/plugins/styleswitcher/jQuery.style.switcher.js');
-        
 
-    //     js/perfect-scrollbar.jquery.min.js
-    //     js/waves.js
-    // <script src="js/sidebarmenu.js"
-    // <script src="../assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"
-    // <script src="../assets/plugins/sparkline/jquery.sparkline.min.js"></script>
-    // <script src="js/custom.min.js"></script>
-   
-    // <script src="../assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
 
     }
 
