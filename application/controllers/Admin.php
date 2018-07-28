@@ -22,6 +22,7 @@ class Admin extends CI_Controller {
         $this->template->stylesheet->add(base_url().'assets/admin/css/style.css');
         $this->template->stylesheet->add(base_url().'assets/admin/css/colors/default.css');
         $this->template->stylesheet->add(base_url().'assets/admin/css/pages/inbox.css');
+        $this->template->stylesheet->add(base_url().'assets/admin/css/pages/file-upload.css');        
 
 
 
