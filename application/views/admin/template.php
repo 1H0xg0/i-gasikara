@@ -82,7 +82,7 @@
                         <!-- Comment -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark"   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
                                 <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown">
@@ -93,25 +93,25 @@
                                     <li>
                                         <div class="message-center">
                                             <!-- Message -->
-                                            <a href="#">
+                                            <a  >
                                                 <div class="btn btn-danger btn-circle"><i class="fa fa-link"></i></div>
                                                 <div class="mail-contnet">
                                                     <h5>Luanch Admin</h5> <span class="mail-desc">Just see the my new admin!</span> <span class="time">9:30 AM</span> </div>
                                             </a>
                                             <!-- Message -->
-                                            <a href="#">
+                                            <a  >
                                                 <div class="btn btn-success btn-circle"><i class="ti-calendar"></i></div>
                                                 <div class="mail-contnet">
                                                     <h5>Event today</h5> <span class="mail-desc">Just a reminder that you have event</span> <span class="time">9:10 AM</span> </div>
                                             </a>
                                             <!-- Message -->
-                                            <a href="#">
+                                            <a  >
                                                 <div class="btn btn-info btn-circle"><i class="ti-settings"></i></div>
                                                 <div class="mail-contnet">
                                                     <h5>Settings</h5> <span class="mail-desc">You can customize this template as you want</span> <span class="time">9:08 AM</span> </div>
                                             </a>
                                             <!-- Message -->
-                                            <a href="#">
+                                            <a  >
                                                 <div class="btn btn-primary btn-circle"><i class="ti-user"></i></div>
                                                 <div class="mail-contnet">
                                                     <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
@@ -131,7 +131,7 @@
                         <!-- Messages -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-email"></i>
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark"   id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-email"></i>
                                 <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
                             </a>
                             <div class="dropdown-menu mailbox dropdown-menu-right animated bounceInDown" aria-labelledby="2">
@@ -142,25 +142,25 @@
                                     <li>
                                         <div class="message-center">
                                             <!-- Message -->
-                                            <a href="#">
+                                            <a  >
                                                 <div class="user-img"> <img src="../assets/images/users/1.jpg" alt="user" class="img-circle"> <span class="profile-status online pull-right"></span> </div>
                                                 <div class="mail-contnet">
                                                     <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:30 AM</span> </div>
                                             </a>
                                             <!-- Message -->
-                                            <a href="#">
+                                            <a  >
                                                 <div class="user-img"> <img src="../assets/images/users/2.jpg" alt="user" class="img-circle"> <span class="profile-status busy pull-right"></span> </div>
                                                 <div class="mail-contnet">
                                                     <h5>Sonu Nigam</h5> <span class="mail-desc">I've sung a song! See you at</span> <span class="time">9:10 AM</span> </div>
                                             </a>
                                             <!-- Message -->
-                                            <a href="#">
+                                            <a  >
                                                 <div class="user-img"> <img src="../assets/images/users/3.jpg" alt="user" class="img-circle"> <span class="profile-status away pull-right"></span> </div>
                                                 <div class="mail-contnet">
                                                     <h5>Arijit Sinh</h5> <span class="mail-desc">I am a singer!</span> <span class="time">9:08 AM</span> </div>
                                             </a>
                                             <!-- Message -->
-                                            <a href="#">
+                                            <a  >
                                                 <div class="user-img"> <img src="../assets/images/users/4.jpg" alt="user" class="img-circle"> <span class="profile-status offline pull-right"></span> </div>
                                                 <div class="mail-contnet">
                                                     <h5>Pavan kumar</h5> <span class="mail-desc">Just see the my admin!</span> <span class="time">9:02 AM</span> </div>
@@ -332,33 +332,32 @@
                         </li>-->
                         <li class="nav-devider"></li>
                         <li> 
-                            <a id="admin-dashboard" class="waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Tableau de bord</span></a>
+                            <a id="admin-dashboard" class="waves-effect waves-dark"  aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Tableau de bord</span></a>
                         </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-clipboard-account"></i><span class="hide-menu">Candidats</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a id="admin-candidats-view"  href="app-calendar.html">Tous les candidats</a></li>
-                                <li><a id="admin-candidat-ajout" href="app-chat.html">Ajout</a></li>
-                            </ul>
+
+                        <li> 
+                            <a id="admin-candidats-view" class="waves-effect waves-dark"  aria-expanded="false"><i class="mdi mdi-clipboard-account"></i><span class="hide-menu">Candidats</span></a>
                         </li>
-                        <li> <a class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span class="hide-menu">Utilisateurs</span></a>
+                        
+                        <li> <a class="has-arrow waves-effect waves-dark"   aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span class="hide-menu">Utilisateurs</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a id="admin-users-view" href="app-email.html">Tous les utilisateurs</a></li>
                                 <li><a id="admin-users-ajout" href="app-email-detail.html">Ajout</a></li>
                             </ul>
                         </li>
                         
-                        <li> <a  class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-chart-line"></i><span class="hide-menu">Statistiques</span></a>
+                        <li> <a  class="has-arrow waves-effect waves-dark"   aria-expanded="false"><i class="mdi mdi-chart-line"></i><span class="hide-menu">Statistiques</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a id="admin-stats-sondage" href="#">Sondages</a></li>
-                                <li><a id="admin-stats-view" href="#">Doléances</a></li>
-                                <li><a id="admin-stats-ajout" href="#">Statistique des dénonciateurs</a></li>
+                                <li><a id="admin-stats-sondage"  >Sondages</a></li>
+                                <li><a id="admin-stats-view"  >Doléances</a></li>
+                                <li><a id="admin-stats-ajout"  >Statistique des dénonciateurs</a></li>
                             </ul>
                         </li>
 
-                        <li> <a  class="has-arrow waves-effect waves-dark" href="#" aria-expanded="false"><i class="mdi mdi-file-multiple"></i><span class="hide-menu">Documents</span></a>
+                        <li> <a  class="has-arrow waves-effect waves-dark"   aria-expanded="false"><i class="mdi mdi-file-multiple"></i><span class="hide-menu">Documents</span></a>
                             <ul aria-expanded="false" class="collapse">
-                                <li><a id="admin-docs-uploads" href="#">Ajout</a></li>
-                                <li><a id="admin-docs-bibliotheque" href="#">Bibliothèques</a></li>
+                                <li><a id="admin-docs-uploads"  >Ajout</a></li>
+                                <li><a id="admin-docs-bibliotheque"  >Bibliothèques</a></li>
                             </ul>
                         </li>
                         
