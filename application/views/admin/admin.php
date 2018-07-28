@@ -1,0 +1,1 @@
+<div id="display-content">Page d'Admininstration</div>
