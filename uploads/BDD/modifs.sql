@@ -160,3 +160,22 @@ ALTER TABLE `representantcandidat`
   ADD CONSTRAINT `fk_RepresentantCandidat_Electeur1` FOREIGN KEY (`CIN`) REFERENCES `electeur` (`CIN`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 ALTER TABLE `electeur` ADD `nomFokontany` VARCHAR(255) NULL DEFAULT NULL AFTER `estPresident`;
+
+drop table video;
+CREATE TABLE IF NOT EXISTS video (
+  idVideo int(11) NOT NULL AUTO_INCREMENT,
+  langVideo varchar(45) DEFAULT NULL,
+  titreVideo varchar(255) NOT NULL,
+  contenuVideo text NOT NULL,
+  categorieVideo tinyint(2) NOT NULL DEFAULT '0',
+  PRIMARY KEY (idVideo)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+
+CREATE TABLE IF NOT EXISTS files (
+  idFile int(11) NOT NULL AUTO_INCREMENT,
+  idPath int(11) NOT NULL,
+  titreFile varchar(255) DEFAULT 'sans titre',
+  sourceFile text NOT NULL,
+  PRIMARY KEY (idFile)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;

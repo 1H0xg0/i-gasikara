@@ -157,6 +157,19 @@
                             </section>
                         </div>
 
+                        <div class="col-12">
+                            <section class="blog_area section_padding_0_80"  id="section-cartographie">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-12 col-lg-8" id = "mapChart" style="height: 400px; ">
+
+                                        </div>
+                                        <div id = "information_map" style="font-size: 12pt;"></div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
 
                 </div>
             </div>
@@ -216,7 +229,19 @@
         </div>
     </div>
 </section>
+
 <!-- ****** Blog Area End ****** -->
+
+<!-- <section class="blog_area section_padding_0_80"  id="section-cartographie">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8" id = "mapChart" style="height: 400px; ">
+
+            </div>
+            <div id = "information_map"></div>
+        </div>
+    </div>
+</section> -->
 
 <!-- ****** Instagram Area Start ****** -->
 <div class="instargram_area owl-carousel section_padding_100_0 clearfix" id="portfolio">

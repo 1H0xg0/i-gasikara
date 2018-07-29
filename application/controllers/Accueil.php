@@ -37,6 +37,8 @@ class Accueil extends CI_Controller {
         $this->template->javascript->add(base_url().'assets/plugins/url.js');
         $this->template->javascript->add(base_url().'assets/public/js/load.js');
         $this->template->javascript->add(base_url().'assets/public/js/ajax.js');
+        $this->template->javascript->add(base_url().'assets/public/js/chart.js');
+        $this->template->javascript->add('https://openlayers.org/api/OpenLayers.js');
 
 
         $this->liste = array(

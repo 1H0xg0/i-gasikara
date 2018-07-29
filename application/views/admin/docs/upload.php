@@ -66,7 +66,7 @@
                     <div class="form-group">
                         <label class="col-md-12">Titre</label>
                         <div class="col-md-12">
-                            <input type="text" placeholder="titre du video" id="input-video-title" class="form-control form-control-line">
+                            <input type="text" placeholder="Titre de la video" id="input-video-title" class="form-control form-control-line">
                         </div>
                     </div>
 

@@ -32,8 +32,7 @@ class Image extends CI_Controller {
                 mkdir($dir_folder, 0777, true);
             }
             $src = base_url().$_path.$_FILES['file']['name'];
-
-            if(strpos($_FILES['file']['type'], 'image') == false ){
+            if(strpos($_FILES['file']['type'], 'image') === false ){
 
                 $data = array(
                     'titreFile' => $_FILES['file']['name'],

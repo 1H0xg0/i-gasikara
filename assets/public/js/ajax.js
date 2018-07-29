@@ -52,6 +52,6 @@ $(document).ready(function(){
         });
     });
 
-    $(body).click(function(){ $('[data-notify=container]').remove(); });
+    $('body').click(function(){ $('[data-notify=container]').remove(); });
 
 });

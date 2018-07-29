@@ -31,6 +31,7 @@ class Candidats_m extends CI_Model
                             'CIN' => $data["CINCandidat"],
                             'partieCandidat ' => $data['partieCandidat'],
                             'abrevpartieCandidat' => $data['abrevpartieCandidat'],
+                            'programmeCandidat' => $data['programmeCandidat'],
                             'logopartieCandidat' => isset($data['logopartieCandidat']) || !is_null($data['logopartieCandidat']) ? $data['logopartieCandidat'] : null,
                             'bloqueCandidat' => isset($data['bloqueCandidat']) || !is_null($data['bloqueCandidat']) ? $data['bloqueCandidat'] : 0, // 0 : non bloqué et 1 : bloqué
                             'eluCandidat' => isset($data['eluCandidat']) || !is_null($data['eluCandidat']) ? $data['eluCandidat'] : 0, // 0 : non élu et 1 : élu
@@ -55,6 +56,7 @@ class Candidats_m extends CI_Model
                             // 'CIN' => $data['CINCandidat'],
                             'partieCandidat ' => $data['partieCandidat'],
                             'abrevpartieCandidat' => $data['abrevpartieCandidat'],
+                            'programmeCandidat' => $data['programmeCandidat'],
                             'logopartieCandidat' => isset($data['logopartieCandidat']) || !is_null($data['logopartieCandidat']) ? $data['logopartieCandidat'] : null,
                             'bloqueCandidat' => isset($data['bloqueCandidat']) || !is_null($data['bloqueCandidat']) ? $data['bloqueCandidat'] : 0, // 0 : non bloqué et 1 : bloqué
                             'eluCandidat' => isset($data['eluCandidat']) || !is_null($data['eluCandidat']) ? $data['eluCandidat'] : 0, // 0 : non élu et 1 : élu
@@ -98,6 +100,7 @@ class Candidats_m extends CI_Model
             'idBureauDeVote' => 1,
             'nomElecteur' => $data['nomCandidat'],
             'prenomElecteur' => $data['prenomCandidat'],
+            'programmeCandidat' => $data['programmeCandidat'],
             'ageElecteur' => isset($data['ageCandidat']) || !is_null($data['ageElecteur']) ? $data['ageElecteur'] : 30,
             'adresseElecteur' => $data['adresseElecteur'],
             // 'estPresident' => isset($data['estPresident']) || !is_null($data['estPresident']) ? $data['estPresident'] : 0
