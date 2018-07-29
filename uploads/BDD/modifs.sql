@@ -159,7 +159,4 @@ ALTER TABLE `participation`
 ALTER TABLE `representantcandidat`
   ADD CONSTRAINT `fk_RepresentantCandidat_Electeur1` FOREIGN KEY (`CIN`) REFERENCES `electeur` (`CIN`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-
--- set foreign_key_checks = 0;
--- ALTER TABLE `electeur` DROP ` CIN `;
--- set foreign_key_checks = 1;
+ALTER TABLE `electeur` ADD `nomFokontany` VARCHAR(255) NULL DEFAULT NULL AFTER `estPresident`;

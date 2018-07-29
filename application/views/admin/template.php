@@ -117,12 +117,14 @@
                         <!-- ============================================================== -->
                         <!-- Language -->
                         <!-- ============================================================== -->
-                        <!-- <li class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle waves-effect waves-dark"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="flag-icon flag-icon-us"></i></a>
                             <div class="dropdown-menu dropdown-menu-right animated bounceInDown"> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-in"></i> India</a> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-fr"></i> French</a> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-cn"></i> China</a> <a class="dropdown-item" href="#"><i class="flag-icon flag-icon-de"></i> Dutch</a> </div>
-                        </li> -->
+                        </li>
                         <!-- ============================================================== -->
                         <!-- Profile -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" class="profile-pic" /></a>
                         <!-- ============================================================== -->
                     </ul>
                 </div>
@@ -155,11 +157,8 @@
                             <a id="admin-candidats-view" class="waves-effect waves-dark"  aria-expanded="false"><i class="mdi mdi-clipboard-account"></i><span class="hide-menu">Candidats</span></a>
                         </li>
                         
-                        <li> <a class="has-arrow waves-effect waves-dark"   aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span class="hide-menu">Utilisateurs</span></a>
-                            <ul aria-expanded="false" class="collapse">
-                                <li><a id="admin-users-view" href="app-email.html">Tous les utilisateurs</a></li>
-                                <li><a id="admin-users-ajout" href="app-email-detail.html">Ajout</a></li>
-                            </ul>
+                        <li> 
+                            <a id="admin-users-view" class="waves-effect waves-dark"   aria-expanded="false"><i class="mdi mdi-account-multiple"></i><span class="hide-menu">Utilisateurs</span></a>
                         </li>
                         
                         <li> <a  class="has-arrow waves-effect waves-dark"   aria-expanded="false"><i class="mdi mdi-chart-line"></i><span class="hide-menu">Statistiques</span></a>
@@ -189,7 +188,7 @@
         <!-- ============================================================== -->
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
-        <div class="page-wrapper">
+        <div class="page-wrapper" style="padding-top: 50px;">
             <?php echo $this->template->content; ?>
         </div>
         <!-- ============================================================== -->
